@@ -825,6 +825,7 @@ class Grid extends React.PureComponent<Props, State> {
     prevState: State,
   ): $Shape<State> {
     const newState = {};
+    let {instanceProps} = prevState;
 
     if (
       (nextProps.columnCount === 0 && prevState.scrollLeft !== 0) ||
@@ -850,8 +851,6 @@ class Grid extends React.PureComponent<Props, State> {
         }),
       );
     }
-
-    let {instanceProps} = prevState;
 
     // Initially we should not clearStyleCache
     newState.needToResetStyleCache = false;
