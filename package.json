@@ -1,5 +1,5 @@
 {
-  "name": "react-virtualized",
+  "name": "@mondaydotcomorg/react-virtualized",
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "dapulse",
   "user": "dapulse",
@@ -26,8 +26,6 @@
     "typecheck": "flow check",
     "prettier": "prettier --write '{playground,source,docs}/**/*.{js,md}'",
     "prettier:diff": "prettier --list-different '{playground,source,docs}/**/*.{js,md}'",
-    "postpublish": "yarn run deploy",
-    "prepublishOnly": "yarn run build",
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --config webpack.config.dev.js",
     "test": "yarn run test:jest",
     "test:jest": "jest --no-watchman --runInBand",
