@@ -1,5 +1,19 @@
 [<img src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" alt="React virtualized" data-canonical-src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" width="330" height="100" />](http://bvaughn.github.io/react-virtualized/)
 
+# Fork Changes
+
+This is a fork of the original `react-virtualized` library with the following changes:
+
+- Removed React 17/18 support (reverted to React 16 compatibility only)
+- Removed flow comments transform plugin
+- Enhanced Grid component accessibility:
+  - Added `aria-activedescendant` property
+  - Added `onFocus` and `onBlur` callbacks
+  - Changed default `containerRole` from 'row' to 'rowgroup'
+  - Changed inner scroll container ID from 'scroll-container' to 'virtualized-grid-container'
+
+## Original README
+
 [![NPM version](https://img.shields.io/npm/v/react-virtualized.svg?style=flat)](https://www.npmjs.com/package/react-virtualized)
 ![NPM license](https://img.shields.io/npm/l/react-virtualized.svg?style=flat)
 [![NPM total downloads](https://img.shields.io/npm/dt/react-virtualized.svg?style=flat)](https://npmcharts.com/compare/react-virtualized?minimal=true)
