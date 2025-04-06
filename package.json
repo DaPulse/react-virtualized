@@ -3,7 +3,7 @@
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "dapulse",
   "user": "dapulse",
-  "version": "9.22.3",
+  "version": "9.22.4",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
   "jsnext:main": "dist/es/index.js",
